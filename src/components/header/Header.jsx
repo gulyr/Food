@@ -1,12 +1,12 @@
-import React from "react";
-import { FaUtensils } from "react-icons/fa";
-import { FaBars } from "react-icons/fa";
-// import { Link } from "react-router-dom";
-
+import React from 'react'
+import { FaBars, FaUtensils } from 'react-icons/fa'
 const Header = () => {
   return (
     <header>
-      <a href="#" class="logo">
+      <a
+        href="#"
+        class="logo"
+      >
         <FaUtensils />
         food
       </a>
@@ -22,7 +22,7 @@ const Header = () => {
         <a href="#order">order</a>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header
