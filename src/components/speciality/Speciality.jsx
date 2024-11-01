@@ -22,7 +22,8 @@ const Speciality = () => {
         <div className="box">
           <img className="image" src={Img1} alt="" />
           <div className="content">
-            <FaHamburger />
+            <FaHamburger className="icon" />
+            {/* <i class="fa-solid fa-burger"></i> */}
             <h3>tasty burger</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -34,7 +35,7 @@ const Speciality = () => {
         <div className="box">
           <img className="image" src={Img2} alt="" />
           <div className="content">
-            <FaPizzaSlice />
+            <FaPizzaSlice className="icon" />
             <h3>tasty pizza</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -46,7 +47,7 @@ const Speciality = () => {
         <div className="box">
           <img className="image" src={Img3} alt="" />
           <div className="content">
-            <FaIceCream />
+            <FaIceCream className="icon" />
             <h3>cold ice-cream</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -58,7 +59,7 @@ const Speciality = () => {
         <div className="box">
           <img className="image" src={Img4} alt="" />
           <div className="content">
-            <FaMartiniGlassCitrus />
+            <FaMartiniGlassCitrus className="icon" />
             <h3>cold drinks</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -70,7 +71,7 @@ const Speciality = () => {
         <div className="box">
           <img className="image" src={Img5} alt="" />
           <div className="content">
-            <FaCakeCandles />
+            <FaCakeCandles className="icon" />
             <h3>tasty sweets</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -82,7 +83,7 @@ const Speciality = () => {
         <div className="box">
           <img className="image" src={Img6} alt="" />
           <div className="content">
-            <FaMugHot />
+            <FaMugHot className="icon" />
             <h3>Healthy breakfast</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

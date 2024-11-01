@@ -1,45 +1,25 @@
-import React from 'react'
+import React from "react";
+import { useSelector } from "react-redux";
 
 const Footer = () => {
+  const data = useSelector((state) => state.data.social);
   return (
     <footer>
       <div className="share">
-        <a
-          href="#"
-          className="btn"
-        >
-          facebook
-        </a>
-        <a
-          href="#"
-          className="btn"
-        >
-          twitter
-        </a>
-        <a
-          href="#"
-          className="btn"
-        >
-          instagram
-        </a>
-        <a
-          href="#"
-          className="btn"
-        >
-          pinterest
-        </a>
-        <a
-          href="#"
-          className="btn"
-        >
-          linkedin
-        </a>
+        {data.map((item) => {
+          const { id, name, url } = item;
+          return (
+            <a key={id} href={url} className="btn">
+              {name}
+            </a>
+          );
+        })}
       </div>
       <h1 className="credit">
         created by <span> gul rasulzada</span>
       </h1>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

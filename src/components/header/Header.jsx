@@ -1,17 +1,17 @@
-import React from 'react'
-import { FaBars, FaUtensils } from 'react-icons/fa'
+import React from "react";
+import { FaBars, FaUtensils } from "react-icons/fa";
+// import { useSelector } from "react-redux";
 const Header = () => {
   return (
     <header>
-      <a
-        href="#"
-        class="logo"
-      >
-        <FaUtensils />
+      <a href="#" className="logo">
+        <FaUtensils className="icon" />
+        {/* <i className="fa-solid fa-utensils"></i> */}
         food
       </a>
       <div id="menu-bar">
         <FaBars />
+        {/* <i className="fa-solid fa-bars"></i> */}
       </div>
       <nav className="navbar">
         <a href="#home">home</a>
@@ -22,7 +22,7 @@ const Header = () => {
         <a href="#order">order</a>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
