@@ -10,6 +10,8 @@ import Gallery from './components/gallery/Gallery'
 import Review from './components/review/Review'
 import Order from './components/order/Order'
 import Footer from './components/footer/Footer'
+import ScrollTop from './components/scrollTop/ScrollTop'
+import Loader from './components/loader/Loader'
 
 const App = () => {
   return (
@@ -23,6 +25,8 @@ const App = () => {
       <Review />
       <Order />
       <Footer />
+      {/* <ScrollTop /> */}
+      {/* <Loader/> */}
     </div>
   )
 }

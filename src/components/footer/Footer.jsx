@@ -4,8 +4,8 @@ import { useSelector } from 'react-redux'
 const Footer = () => {
   const data = useSelector((state) => state.data.social)
   return (
-    <footer className="bg-black">
-      <div className="share">
+    <footer className="bg-black items-center py-8 px-[9%] flex flex-col justify-between items-center gap-6">
+      <div className="share flex flex-wrap justify-center gap-6">
         {data.map((item) => {
           const { id, name, url } = item
           return (
@@ -19,8 +19,8 @@ const Footer = () => {
           )
         })}
       </div>
-      <h1 className="credit">
-        created by <span>gul rasulzada</span>
+      <h1 className="credit text-white font-normal text-[2rem]">
+        created by <span className="text-[#ff3838]">gul rasulzada</span>
       </h1>
     </footer>
   )
