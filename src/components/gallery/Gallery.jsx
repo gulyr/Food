@@ -8,8 +8,11 @@ import Img6 from '../../assets/images/g-6.jpg'
 import Img7 from '../../assets/images/g-7.jpg'
 import Img8 from '../../assets/images/g-8.jpg'
 import Img9 from '../../assets/images/g-9.jpg'
+import { useSelector } from 'react-redux'
 
 const Gallery = () => {
+  const data = useSelector((state) => state.data.gallery)
+  const images = [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9]
   return (
     <div
       className="gallery container"
@@ -19,177 +22,30 @@ const Gallery = () => {
         our food <span>gallery</span>
       </h1>
       <div className="box-container">
-        <div className="box">
-          <img
-            src={Img1}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
+        {data.map((item) => {
+          const { id, title, content } = item
+          return (
+            <div
+              key={id}
+              className="box"
             >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img2}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img3}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img4}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img5}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img6}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img7}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img8}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <img
-            src={Img9}
-            alt=""
-          />
-          <div className="content">
-            <h3>tasty food</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
-              doloribus?
-            </p>
-            <a
-              href="#"
-              className="btn"
-            >
-              order now
-            </a>
-          </div>
-        </div>
+              <img
+                src={images[id - 1]}
+                alt=""
+              />
+              <div className="content">
+                <h3>{title}</h3>
+                <p>{content}</p>
+                <a
+                  href="#"
+                  className="btn"
+                >
+                  order now
+                </a>
+              </div>
+            </div>
+          )
+        })}
       </div>
     </div>
   )

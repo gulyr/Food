@@ -1,29 +1,31 @@
-import React from "react";
-import Img1 from "../../assets/images/step-1.jpg";
-import Img2 from "../../assets/images/step-2.jpg";
-import Img3 from "../../assets/images/step-3.jpg";
-import Img4 from "../../assets/images/step-4.jpg";
+import React from 'react'
+import Img1 from '../../assets/images/step-1.jpg'
+import Img2 from '../../assets/images/step-2.jpg'
+import Img3 from '../../assets/images/step-3.jpg'
+import Img4 from '../../assets/images/step-4.jpg'
+import { useSelector } from 'react-redux'
 const Steps = () => {
+  const data = useSelector((state) => state.data.steps)
+  const images = [Img1, Img2, Img3, Img4]
   return (
     <div className="steps">
-      <div className="box">
-        <img src={Img1} alt="" />
-        <h3>choose your favorite food</h3>
-      </div>
-      <div className="box">
-        <img src={Img2} alt="" />
-        <h3>free and fast delivery</h3>
-      </div>
-      <div className="box">
-        <img src={Img3} alt="" />
-        <h3>easy payment methods</h3>
-      </div>
-      <div className="box">
-        <img src={Img4} alt="" />
-        <h3>and finally, enjoy your food</h3>
-      </div>
+      {data.map((item) => {
+        const { id, title } = item
+        return (
+          <div
+            key={id}
+            className="box"
+          >
+            <img
+              src={images[item.id - 1]}
+              alt=""
+            />
+            <h3>{title}</h3>
+          </div>
+        )
+      })}
     </div>
-  );
-};
+  )
+}
 
-export default Steps;
+export default Steps
