@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 :root {
     --red: #ff3838;
+    --white: #fff;
 }
 
 * {
@@ -17,7 +18,7 @@
 
 *::selection {
     background: var(--red);
-    color: #fff;
+    color: var(--white);
 }
 
 html {
@@ -78,7 +79,7 @@ body {
 }
 
 .btn:hover {
-    color: #fff;
+    color: var(--white);
 }
 
 header {
@@ -90,7 +91,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    background: var(--white);
     padding: 2rem 9%;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -198,7 +199,7 @@ header .navbar a:hover {
 
 .speciality .box-container .box .content {
     text-align: center;
-    background: #fff;
+    background: var(--white);
     padding: 2rem;
 }
 
@@ -227,7 +228,7 @@ header .navbar a:hover {
 
 .popular .box-container .box {
     padding: 2rem;
-    background: #fff;
+    background: var(--white);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border: 0.1rem solid rgba(0, 0, 0, 0.3);
     border-radius: 0.5rem;
@@ -443,14 +444,14 @@ header .navbar a:hover {
 }
 
 footer {
-    background: #000;
+    /* background: #000; */
     text-align: center;
     padding: 2rem 9%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 1.5rem;
+    /* gap: 1.5rem; */
 }
 
 footer .share {

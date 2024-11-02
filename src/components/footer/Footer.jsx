@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 const Footer = () => {
   const data = useSelector((state) => state.data.social)
   return (
-    <footer>
+    <footer className="bg-black">
       <div className="share">
         {data.map((item) => {
           const { id, name, url } = item
