@@ -21,21 +21,24 @@ const Gallery = () => {
       <h1 className="heading">
         our food <span>gallery</span>
       </h1>
-      <div className="box-container">
+      <div className="box-container flex flex-wrap gap-6">
         {data.map((item) => {
           const { id, title, content } = item
           return (
             <div
               key={id}
-              className="box"
+              className="box relative overflow-hidden border-[1rem] border-solid border-white rounded-lg h-[25rem]"
             >
               <img
                 src={images[id - 1]}
                 alt=""
+                className="w-full h-full object-cover"
               />
-              <div className="content">
-                <h3>{title}</h3>
-                <p>{content}</p>
+              <div className="content absolute -top-full left-0  w-full h-full bg-[#ffffffe6] text-center pt-20 py-8 pb-8">
+                <h3 className="text-[#333] text-[2.5rem]">{title}</h3>
+                <p className="text-[#666] text-[1.5rem] px-0 py-[1rem]">
+                  {content}
+                </p>
                 <a
                   href="#"
                   className="btn"
