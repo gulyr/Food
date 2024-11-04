@@ -1,27 +1,21 @@
-import React from 'react'
-import Img1 from '../../assets/images/o-1.jpg'
+import React from "react";
+import Img1 from "../../assets/images/o-1.jpg";
 const Order = () => {
   return (
-    <div
-      className="order container"
-      id="order"
-    >
-      <h1 className="heading">
-        <span>order</span> now
+    <div className="px-[9%] py-8" id="order">
+      <h1 className="text-center text-[3.5rem] p-[1rem] text-[#666] font-bold">
+        <span className="text-[#ff3838]">order</span> now
       </h1>
-      <div className="row p-8 bg-white flex flex-wrap gap-6">
-        <div className="image rounded-lg">
+      <div className="order_row p-8 bg-white flex flex-wrap gap-6">
+        <div className="order_image rounded-lg">
           <img
             src={Img1}
             alt=""
             className="w-full h-full object-cover rounded-lg"
           />
         </div>
-        <form
-          action=""
-          className="p-4"
-        >
-          <div className="inputBox flex flex-wrap justify-between">
+        <form action="" className="order_form p-4">
+          <div className="flex flex-wrap justify-between">
             <input
               type="text"
               placeholder="name"
@@ -33,7 +27,7 @@ const Order = () => {
               className="p-4 w-[49%] text-white decoration-none mx-0 my-4 text-[1.7rem] rounded-lg border-[0.1rem] border-solid border-[rgba(0, 0, 0, 0.1)]"
             />
           </div>
-          <div className="inputBox flex flex-wrap justify-between">
+          <div className="flex flex-wrap justify-between">
             <input
               type="number"
               placeholder="number"
@@ -59,7 +53,7 @@ const Order = () => {
         </form>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Order
+export default Order;

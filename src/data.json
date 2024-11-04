@@ -1,189 +1,197 @@
 {
-    "speciality": [{
-            "id": 1,
-            "img": "../../assets/images/1.png",
-            "icon": "FaHamburger",
-            "title": "tasty burger",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
-        },
-        {
-            "id": 2,
-            "img": "../../assets/images/2.jpg",
-            "icon": "FaPizzaSlice",
-            "title": "tasty pizza",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
-        },
-        {
-            "id": 3,
-            "img": "../../assets/images/3.jpg",
-            "icon": "FaIceCream",
-            "title": "cold ice-cream",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
-        },
-        {
-            "id": 4,
-            "img": "../../assets/images/4",
-            "icon": "FaMartiniGlassCitrus",
-            "title": "cold drinks",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
-        },
-        {
-            "id": 5,
-            "img": "../../assets/images/5.jpg",
-            "icon": "FaCakeCandles",
-            "title": "tasty sweets",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
-        },
-        {
-            "id": 6,
-            "img": "../../assets/images/6.jpg",
-            "icon": "FaMugHot",
-            "title": "Healthy breakfast",
-            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
-        }
-    ],
-    "popular": [{
-            "id": 1,
-            "price": [5, 20],
-            "img": "../../assets/images/img-1.webp",
-            "title": "tasty burger"
-        },
-        {
-            "id": 2,
-            "price": [5, 20],
-            "img": "../../assets/images/img-2.jpg",
-            "title": "tasty cakes"
-        },
-        {
-            "id": 3,
-            "price": [5, 20],
-            "img": "../../assets/images/img-3.jpg",
-            "title": "tasty sweets"
-        },
-        {
-            "id": 4,
-            "price": [5, 20],
-            "img": "../../assets/images/img-4.jpg",
-            "title": "tasty cupcakes"
-        },
-        {
-            "id": 5,
-            "price": [5, 20],
-            "img": "../../assets/images/img-5.jpg",
-            "title": "cold drinks"
-        },
-        {
-            "id": 6,
-            "price": [5, 20],
-            "img": "../../assets/images/img-6.jpg",
-            "title": "cold ice-cream"
-        }
-    ],
-    "steps": [{
-            "id": 1,
-            "img": "../../assets/images/step-1.jpg",
-            "title": "choose your favorite food"
-        },
-        {
-            "id": 2,
-            "img": "../../assets/images/step-2.jpg",
-            "title": "free and fast delivery"
-        },
-        {
-            "id": 3,
-            "img": "../../assets/images/step-3.jpg",
-            "title": "easy payment methods"
-        },
-        {
-            "id": 4,
-            "img": "../../assets/images/step-4.jpg",
-            "title": "and finally, enjoy your food"
-        }
-    ],
-    "gallery": [{
-            "id": 1,
-            "img": "/assets/images/g-1.jpg",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 2,
-            "img": "../../assets/images/g-2.webp",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 3,
-            "img": "../../assets/images/g-3.webp",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 4,
-            "img": "../../assets/images/g-4.jpg",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 5,
-            "img": "../../assets/images/g-5.webp",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 6,
-            "img": "../../assets/images/g-6.jpg",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 7,
-            "img": "../../assets/images/g-7.jpg",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 8,
-            "img": "../../assets/images/g-8.jpg",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        },
-        {
-            "id": 9,
-            "img": "../../assets/images/g-9.jpg",
-            "title": "tasty food",
-            "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
-        }
-    ],
-    "review": [{
-            "id": 1,
-            "img": "../../assets/images/r-1.jpg",
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat id quis labore at, expedita aspernatur voluptatem aliquam tempora quam?"
-        },
-        {
-            "id": 2,
-            "img": "../../assets/images/r-2.png",
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat id quis labore at, expedita aspernatur voluptatem aliquam tempora quam?"
-        },
-        {
-            "id": 3,
-            "img": "../../assets/images/r-3.png",
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat id quis labore at, expedita aspernatur voluptatem aliquam tempora quam?"
-        }
-    ],
-    "social": [
-        { "id": 1, "name": "facebook", "href": "https://www.facebook.com/" },
-        { "id": 2, "name": "twitter", "href": "https://x.com/?lang=en" },
-        { "id": 3, "name": "instagram", "href": "https://www.instagram.com/" },
-        { "id": 4, "name": "pinterest", "href": "https://www.pinterest.com/" },
-        { "id": 5, "name": "linkedin", "href": "https://www.linkedin.com/" }
-    ],
-    "header": [
-        { "id": 1, "title": "Home", "href": "" },
-        { "id": 2, "title": "Speciality", "href": "speciality" },
-        { "id": 3, "title": "Popular", "href": "popular" },
-        { "id": 4, "title": "Gallery", "href": "gallery" },
-        { "id": 5, "title": "Review", "href": "review" },
-        { "id": 6, "title": "Order", "href": "order" }
-    ]
+  "speciality": [
+    {
+      "id": 1,
+      "img": "../../assets/images/1.png",
+      "icon": "FaHamburger",
+      "title": "tasty burger",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
+    },
+    {
+      "id": 2,
+      "img": "../../assets/images/2.jpg",
+      "icon": "FaPizzaSlice",
+      "title": "tasty pizza",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
+    },
+    {
+      "id": 3,
+      "img": "../../assets/images/3.jpg",
+      "icon": "FaIceCream",
+      "title": "cold ice-cream",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
+    },
+    {
+      "id": 4,
+      "img": "../../assets/images/4",
+      "icon": "FaMartiniGlassCitrus",
+      "title": "cold drinks",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
+    },
+    {
+      "id": 5,
+      "img": "../../assets/images/5.jpg",
+      "icon": "FaCakeCandles",
+      "title": "tasty sweets",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
+    },
+    {
+      "id": 6,
+      "img": "../../assets/images/6.jpg",
+      "icon": "FaMugHot",
+      "title": "Healthy breakfast",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum debitis consequatur ipsa sunt esse assumenda odio ullam porro hic culpa."
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "price": [5, 20],
+      "img": "../../assets/images/img-1.webp",
+      "title": "tasty burger"
+    },
+    {
+      "id": 2,
+      "price": [5, 20],
+      "img": "../../assets/images/img-2.jpg",
+      "title": "tasty cakes"
+    },
+    {
+      "id": 3,
+      "price": [5, 20],
+      "img": "../../assets/images/img-3.jpg",
+      "title": "tasty sweets"
+    },
+    {
+      "id": 4,
+      "price": [5, 20],
+      "img": "../../assets/images/img-4.jpg",
+      "title": "tasty cupcakes"
+    },
+    {
+      "id": 5,
+      "price": [5, 20],
+      "img": "../../assets/images/img-5.jpg",
+      "title": "cold drinks"
+    },
+    {
+      "id": 6,
+      "price": [5, 20],
+      "img": "../../assets/images/img-6.jpg",
+      "title": "cold ice-cream"
+    }
+  ],
+  "steps": [
+    {
+      "id": 1,
+      "img": "../../assets/images/step-1.jpg",
+      "title": "choose your favorite food"
+    },
+    {
+      "id": 2,
+      "img": "../../assets/images/step-2.jpg",
+      "title": "free and fast delivery"
+    },
+    {
+      "id": 3,
+      "img": "../../assets/images/step-3.jpg",
+      "title": "easy payment methods"
+    },
+    {
+      "id": 4,
+      "img": "../../assets/images/step-4.jpg",
+      "title": "and finally, enjoy your food"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "img": "/assets/images/g-1.jpg",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 2,
+      "img": "../../assets/images/g-2.webp",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 3,
+      "img": "../../assets/images/g-3.webp",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 4,
+      "img": "../../assets/images/g-4.jpg",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 5,
+      "img": "../../assets/images/g-5.webp",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 6,
+      "img": "../../assets/images/g-6.jpg",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 7,
+      "img": "../../assets/images/g-7.jpg",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 8,
+      "img": "../../assets/images/g-8.jpg",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    },
+    {
+      "id": 9,
+      "img": "../../assets/images/g-9.jpg",
+      "title": "tasty food",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, doloribus?"
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "img": "../../assets/images/r-1.jpg",
+      "person": "John Deo",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat id quis labore at, expedita aspernatur voluptatem aliquam tempora quam?"
+    },
+    {
+      "id": 2,
+      "img": "../../assets/images/r-2.png",
+      "person": "John Deo",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat id quis labore at, expedita aspernatur voluptatem aliquam tempora quam?"
+    },
+    {
+      "id": 3,
+      "img": "../../assets/images/r-3.png",
+      "person": "John Deo",
+      "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad repellat id quis labore at, expedita aspernatur voluptatem aliquam tempora quam?"
+    }
+  ],
+  "social": [
+    { "id": 1, "name": "facebook", "href": "https://www.facebook.com/" },
+    { "id": 2, "name": "twitter", "href": "https://x.com/?lang=en" },
+    { "id": 3, "name": "instagram", "href": "https://www.instagram.com/" },
+    { "id": 4, "name": "pinterest", "href": "https://www.pinterest.com/" },
+    { "id": 5, "name": "linkedin", "href": "https://www.linkedin.com/" }
+  ],
+  "header": [
+    { "id": 1, "title": "Home", "href": "" },
+    { "id": 2, "title": "Speciality", "href": "speciality" },
+    { "id": 3, "title": "Popular", "href": "popular" },
+    { "id": 4, "title": "Gallery", "href": "gallery" },
+    { "id": 5, "title": "Review", "href": "review" },
+    { "id": 6, "title": "Order", "href": "order" }
+  ]
 }

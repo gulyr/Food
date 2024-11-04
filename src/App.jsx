@@ -1,17 +1,17 @@
-import React from 'react'
-import './index.css'
-import './assets/css/style.css'
-import Home from './components/home/Home'
-import Header from './components/header/Header'
-import Speciality from './components/speciality/Speciality'
-import Popular from './components/popular/Popular'
-import Steps from './components/steps/Steps'
-import Gallery from './components/gallery/Gallery'
-import Review from './components/review/Review'
-import Order from './components/order/Order'
-import Footer from './components/footer/Footer'
-import ScrollTop from './components/scrollTop/ScrollTop'
-import Loader from './components/loader/Loader'
+import React from "react";
+import "./index.css";
+import "./assets/css/style.css";
+import Home from "./components/home/Home";
+import Header from "./components/header/Header";
+import Speciality from "./components/speciality/Speciality";
+import Popular from "./components/popular/Popular";
+import Steps from "./components/steps/Steps";
+import Gallery from "./components/gallery/Gallery";
+import Review from "./components/review/Review";
+import Order from "./components/order/Order";
+import Footer from "./components/footer/Footer";
+import ScrollTop from "./components/scrollTop/ScrollTop";
+import Loader from "./components/loader/Loader";
 
 const App = () => {
   return (
@@ -25,10 +25,10 @@ const App = () => {
       <Review />
       <Order />
       <Footer />
-      {/* <ScrollTop /> */}
-      {/* <Loader/> */}
+      <ScrollTop />
+      <Loader />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

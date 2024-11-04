@@ -6,4 +6,5 @@ const mainSlice = createSlice({
   initialState: data,
   reducers: {},
 });
+
 export default mainSlice.reducer;
